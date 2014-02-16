@@ -1,0 +1,10 @@
+{
+	"installed_packages":
+	[
+		"Jedi - Python autocompletion",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-pylint",
+		"SublimeREPL"
+	]
+}

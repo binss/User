@@ -3,8 +3,6 @@
 	[
 		"Jedi - Python autocompletion",
 		"SublimeCodeIntel",
-		"SublimeLinter",
-		"SublimeLinter-pylint",
 		"SublimeREPL"
 	]
 }

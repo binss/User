@@ -1,6 +1,6 @@
 {
     "user": {
-        "debug": false,
+        "debug": true,
         "delay": 0.25,
         "error_color": "D02000",
         "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
@@ -14,6 +14,11 @@
                 "enable": "",
                 "excludes": [],
                 "rcfile": "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pylint/lint.py"
+            },
+            "ruby": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
             }
         },
         "mark_style": "fill",

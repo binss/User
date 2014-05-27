@@ -1,11 +1,11 @@
 {
+	"auto_complete": true,
 	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
 	"ignored_packages":
 	[
-		"SublimeCodeIntel",
+		"Jedi - Python autocompletion",
 		"Vintage"
 	],
 	"tab_size": 4,
-	"translate_tabs_to_spaces": true,
-
+	"translate_tabs_to_spaces": true
 }

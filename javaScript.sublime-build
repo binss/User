@@ -1,6 +1,8 @@
 {
     // "cmd": ["node", "$file"],
+    // 命令行命令 node 文件名 ， 需要装node.js
     "shell_cmd": "node $file",
     "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
-    "selector": "source.javascript"
+    // 选择器，在auto状态下会对该后缀的文件应用该buid system
+    "selector": "source.js"
 }

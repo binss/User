@@ -1,7 +1,9 @@
 {
 	"installed_packages":
 	[
+		"JavaScript & NodeJS Snippets",
 		"Jedi - Python autocompletion",
+		"Prolog",
 		"SublimeLinter",
 		"SublimeLinter-ruby",
 		"SublimeREPL"

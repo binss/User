@@ -1,0 +1,6 @@
+{
+    // "cmd": ["node", "$file"],
+    "shell_cmd": "node $file",
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "selector": "source.javascript"
+}

@@ -1,0 +1,15 @@
+[
+    {
+      "keys": ["ctrl+d"], "command": "htmlprettify"
+    },
+    { 
+        "keys": ["ctrl+e"], "command": "pylinter", "args": {"action": "list"}
+    },
+    { "keys": ["ctrl+e"], "command": "sublimelinter_show_all_errors" },
+    { "keys": ["ctrl+1"], "command": "expand_selection", "args": {"to": "line"} },
+    { "keys": ["ctrl+2"], "command": "expand_selection", "args": {"to": "scope"} },
+    { "keys": ["ctrl+3"], "command": "expand_selection", "args": {"to": "brackets"} },
+    { "keys": ["ctrl+4"], "command": "expand_selection", "args": {"to": "indentation"} },
+
+
+]

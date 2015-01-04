@@ -1,0 +1,29 @@
+{
+	"channels":
+	[
+		"http://binsite.sinacloud.net/channel_v3.json"
+	],
+	"in_process_packages":
+	[
+	],
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2"
+	],
+	"installed_packages":
+	[
+		"Better Completion",
+		"ColorPicker",
+		"Emmet",
+		"HTML-CSS-JS Prettify",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"SublimeLinter-pep8"
+	],
+	"repositories":
+	[
+	]
+}

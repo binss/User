@@ -13,6 +13,7 @@
 	],
 	"installed_packages":
 	[
+		"AutoPEP8",
 		"Better Completion",
 		"ColorPicker",
 		"Emmet",

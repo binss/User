@@ -1,13 +1,15 @@
 [
+    { "keys": ["super+shift+b"], "command": "build_with_args" },
     {
       "keys": ["ctrl+d"], "command": "htmlprettify"
     },
     { "keys": ["ctrl+e"], "command": "sublimelinter_show_all_errors" },
-    { "keys": ["ctrl+1"], "command": "expand_selection", "args": {"to": "line"} },
+    //{ "keys": ["ctrl+1"], "command": "expand_selection", "args": {"to": "line"} },
     { "keys": ["ctrl+2"], "command": "expand_selection", "args": {"to": "scope"} },
     { "keys": ["ctrl+3"], "command": "expand_selection", "args": {"to": "brackets"} },
     { "keys": ["ctrl+4"], "command": "expand_selection", "args": {"to": "indentation"} },
-    { "keys": ["ctrl+f"], "command": "auto_pep8", "args": {"preview": true} },
-
-
+    { "keys": ["ctrl+f"], "command": "auto_pep8", "args": {"preview": false} },
+    { "keys": ["ctrl+s"], "command": "send_to_evernote" },
+    { "keys": ["ctrl+s"], "command": "save_evernote_note", "context": [{"key": "evernote_note"}, {"key": "evernote_has_guid"}] },
+    { "keys": ["super+e"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Evernote: "} },
 ]

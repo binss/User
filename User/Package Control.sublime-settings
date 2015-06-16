@@ -1,15 +1,10 @@
 {
 	"channels":
 	[
-		"http://binsite.sinacloud.net/channel_v3.json"
+		"https://packagecontrol.io/channel.json"
 	],
 	"in_process_packages":
 	[
-	],
-	"installed_dependencies":
-	[
-		"0_package_control_loader",
-		"bz2"
 	],
 	"installed_packages":
 	[
@@ -18,10 +13,12 @@
 		"BracketHighlighter",
 		"ColorPicker",
 		"Emmet",
+		"Evernote",
 		"HTML-CSS-JS Prettify",
 		"Package Control",
 		"SideBarEnhancements",
 		"SublimeLinter",
+		"SublimeLinter-cppcheck",
 		"SublimeLinter-jshint",
 		"SublimeLinter-pep8"
 	],

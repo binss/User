@@ -1,10 +1,22 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Bright (SL).tmTheme",
 	"font_size": 12,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+    // 用4个空格替换tab
 	"translate_tabs_to_spaces": true,
-	"update_check": false
+    // 不检查更新
+	"update_check": false,
+    // 保证为 unix 风格的换行符
+    "default_line_ending": "unix",
+    // 文件保存时移除每行结尾多余空格
+    "trim_trailing_white_space_on_save": true,
+    // 文件保存时在结尾插入换行符
+    "ensure_newline_at_eof_on_save": true,
+    // 自动查找选中内容
+    // On OS X, this value is overridden in the platform specific settings, so
+    // you'll need to place this line in your user settings to override it.
+    "find_selected_text": true,
 }

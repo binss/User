@@ -1,5 +1,5 @@
 [
-    { "keys": ["super+shift+b"], "command": "build_with_args" },
+    // { "keys": ["super+shift+b"], "command": "build_with_args" },
     {
       "keys": ["ctrl+d"], "command": "htmlprettify"
     },
@@ -12,4 +12,6 @@
     { "keys": ["ctrl+s"], "command": "send_to_evernote" },
     { "keys": ["ctrl+s"], "command": "save_evernote_note", "context": [{"key": "evernote_note"}, {"key": "evernote_has_guid"}] },
     { "keys": ["super+e"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Evernote: "} },
+
+    { "keys": ["ctrl+t"], "command": "rebuild_tags"},
 ]
